@@ -2,8 +2,33 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_add"
         android:orderInCategory="100"
+        android:title="@string/action_add"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_action_add" />
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="200"
+        android:title="@string/action_delete"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_action_delete" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="300"
         android:title="@string/action_settings"
-        app:showAsAction="never" />
+        app:showAsAction="never"
+        android:icon="@drawable/ic_action_settings" />
+    <item
+        android:id="@+id/action_email"
+        android:orderInCategory="400"
+        android:title="@string/action_email"
+        app:showAsAction="never|always"
+        android:icon="@drawable/ic_action_email" />
+    <item
+        android:id="@+id/action_message"
+        android:orderInCategory="500"
+        android:title="@string/action_message"
+        app:showAsAction="never|always"
+        android:icon="@drawable/ic_action_sms" />
 </menu>
